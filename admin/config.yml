@@ -1,0 +1,17 @@
+backend:
+  name: github
+  repo: rohitgames7980-prog/Rohitgaming.hub
+  branch: main
+
+media_folder: "images"
+public_folder: "/images"
+
+collections:
+  - name: "content"
+    label: "वेबसाइट कंटेंट"
+    files:
+      - file: "index.html"
+        label: "होमपेज सेटिंग्स"
+        name: "homepage"
+        fields:
+          - {label: "मुख्य शीर्षक (Hero Title)", name: "hero_title", widget: "string"}
